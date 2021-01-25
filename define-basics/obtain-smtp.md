@@ -13,8 +13,6 @@ You will need to have SMTP \( way to send mail \) because the system will use it
 
 This is probably the easiest way to obtain SMTP data. Create an email in your hosting and get a note of the credentials. You will need them in the install process.
 
-
-
 ![](https://i.imgur.com/t9Awl7B.png)
 
 Then click on "Connect Device". You will find all the required info there
