@@ -13,11 +13,11 @@ You will need to have SMTP \( way to send mail \) because the system will use it
 
 This is probably the easiest way to obtain SMTP data. Create an email in your hosting and get note of the credentials. You will need them in the install process.
 
-![](../.gitbook/assets/email_accounts.png)
+![](https://github.com/mobidonia/whatsappfooddocs/tree/7cc9535d1c0c56c97869348b3371410877407d5b/.gitbook/assets/email_accounts.png)
 
 Then click on "Connect Device". You will find all required info there
 
-![](../.gitbook/assets/connect_devices.png)
+![](https://github.com/mobidonia/whatsappfooddocs/tree/7cc9535d1c0c56c97869348b3371410877407d5b/.gitbook/assets/connect_devices.png)
 
 Here are some examples how it may look
 
@@ -49,7 +49,7 @@ MAIL_FROM_NAME="${APP_NAME}"
 {% endtab %}
 
 {% tab title="Regular 587" %}
-```
+```text
 MAIL_DRIVER=smtp
 MAIL_ENCRYPTION=''
 MAIL_PORT=587

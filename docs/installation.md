@@ -6,7 +6,7 @@ description: Learn how to install WhatsApp Food Ordering
 
 ## Requirements
 
-WhatsApp Food Ordering is a self-hosted web application written in PHP on top of the Laravel 8.0 framework. The followings are required to install WhatsApp Food Ordering:
+This is a self-hosted web application written in PHP on top of the Laravel 8.0 framework. The followings are required to install it:
 
 * PHP Version: 7.4 or 8.0
 * MySQL Version: &gt;= 5.x
@@ -15,7 +15,7 @@ WhatsApp Food Ordering is a self-hosted web application written in PHP on top of
 
 ## Prepare to install
 
-Installing WhatsApp Food Ordering is very easy and you'll be able to install it without any coding knowledge. The installation process included three major steps:
+Installing the project is very easy and you'll be able to install it without any coding knowledge. The installation process included three major steps:
 
 1. **Creating domain or subdomain**
 2. **Creating a database**
@@ -23,7 +23,7 @@ Installing WhatsApp Food Ordering is very easy and you'll be able to install it 
 
 **Now below you can watch the video installation tutorial or you can continue with step by step.**
 
-{% embed url="https://youtu.be/DgJ3dpeYNVY" %}
+{% embed url="https://youtu.be/DgJ3dpeYNVY" caption="" %}
 
 \*\*\*\*
 
@@ -39,34 +39,23 @@ Delete any default files that are maybe added.
 
 #### 2. Create a database
 
-Create an empty database in your shared hosting and remember this credentials
+Create an empty database in your shared hosting and remember these credentials
 
-* db name
-* db username
-* db user pass
-
+* DB name
+* DB username
+* DB user pass
 
 #### 3.  Upload the source code you have downloaded from CodeCanyon and unzip it
 
-#### 4. Now navigate to the web url where your project is located
+#### 4. Now navigate to the web URL where your project is located
 
 ex. mydomain.com or subdomain.mydomain.com
 
 The installation screen should appear and guide you in the process.
 
-When you login as admin, in Site Settings you have the option to change all the settings. 
+When you log in as admin, in Site Settings you have the option to change all the settings.
 
 {% hint style="danger" %}
-Don't forget to do the SMTP setup. Without it, you will get error 500 on register.
+Don't forget to do the SMTP setup. Without it, you will get error 500 on the register.
 {% endhint %}
-
-Here is how to do it
-
-{% page-ref page="../define-basics/obtain-smtp.md" %}
-
-When you finish with the configuration we can go on the next step application usage.
-
-Learn how to use it.
-
-{% page-ref page="../usage/getting-started.md" %}
 

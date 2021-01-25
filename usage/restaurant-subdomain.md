@@ -6,52 +6,41 @@ One of the most commonly used shared hosting framework is cPanel. So we will wri
 
 After you have your main domain or subdomain active, and your site is up and running, you can make each restaurant to have its own domain. Like in our demo.
 
-The main site is  [https://zebra-qr.com/](https://zebra-qr.com/)  and there you can find all restaurants as they are in subfolder ex \( [https://zebra-qr.com/restaurant/leukapizza](https://zebra-qr.com/restaurant/leukapizza) \). But each restaurant can be also directly open for example: [https://leukapizza.zebra-qr.com/](https://leukapizza.zebra-qr.com/) This feature is directly enabled in your QR Menu Maker site. But you will need to create a wildcard subdomain that uses the same folder as your main site.
-
-
+The main site is [https://zebra-qr.com/](https://zebra-qr.com/) and there you can find all restaurants as they are in subfolder ex \( [https://zebra-qr.com/restaurant/leukapizza](https://zebra-qr.com/restaurant/leukapizza) \). But each restaurant can be also directly open for example: [https://leukapizza.zebra-qr.com/](https://leukapizza.zebra-qr.com/) This feature is directly enabled in your QR Menu Maker site. But you will need to create a wildcard subdomain that uses the same folder as your main site.
 
 1. Log into your cPanel.  
 2. Navigate to **Domains** section &gt; **Subdomains** menu:
 
-![Click on Subdomain](../.gitbook/assets/subdomain.png)
+![Click on Subdomain](https://github.com/mobidonia/whatsappfooddocs/tree/7cc9535d1c0c56c97869348b3371410877407d5b/.gitbook/assets/subdomain.png)
 
-3. Create a subdomain **\***
+1. Create a subdomain **\***
+2. Enter \* for Subdomain
+3. Select your domain
+4. Select \( enter \) the same document root - in this case /public\_html
 
-* Enter \* for Subdomain
-* Select your domain
-* Select \( enter \) the same document root - in this case /public\_html
+![Enter \* for Subdomain](https://github.com/mobidonia/whatsappfooddocs/tree/7cc9535d1c0c56c97869348b3371410877407d5b/.gitbook/assets/the_subdomain.png)
 
-![Enter \* for Subdomain](../.gitbook/assets/the_subdomain.png)
+1. Go to the **Zone Editor** menu:
 
-4. Go to the **Zone Editor** menu:
+![](https://github.com/mobidonia/whatsappfooddocs/tree/7cc9535d1c0c56c97869348b3371410877407d5b/.gitbook/assets/wildcard3.png)
 
-![](../.gitbook/assets/wildcard3.png)
+1. Make sure that there is an **A record** for **\*.yourdomain.com** created and pointed to the server IP address \(it could coincide with the IP address of your main domain or ftp.yourdomain.com is pointed to\):
 
-5. Make sure that there is an **A record** for **\*.yourdomain.com** created and pointed to the server IP address \(it could coincide with the IP address of your main domain or ftp.yourdomain.com is pointed to\):
+![](https://github.com/mobidonia/whatsappfooddocs/tree/7cc9535d1c0c56c97869348b3371410877407d5b/.gitbook/assets/pl_subdomain_5.png)
 
-![](../.gitbook/assets/pl_subdomain_5.png)
-
-
-
-6. Now, you will need to wait until the **propagation is over** \(it should take N seconds, where N – is **TTL** for this A record; you can edit it manually and reduce the number to speed up the process\), and then the wildcard subdomain will work correctly.
-
-
+1. Now, you will need to wait until the **propagation is over** \(it should take N seconds, where N – is **TTL** for this A record; you can edit it manually and reduce the number to speed up the process\), and then the wildcard subdomain will work correctly.
 
 Each restaurant has automatically their own subdomain now. Open some restaurants on your site. Example:
 
-[https://zebra-qr.com/restaurant/malibudiner](https://zebra-qr.com/restaurant/malibudiner)  --&gt; [ https://malibudiner.zebra-qr.com/](https://malibudiner.zebra-qr.com/)
+[https://zebra-qr.com/restaurant/malibudiner](https://zebra-qr.com/restaurant/malibudiner) --&gt; [ https://malibudiner.zebra-qr.com/](https://malibudiner.zebra-qr.com/)
 
 In this case, the subdomain is **malibudiner**
 
-7. Login as admin in your project and decare in Settings / Setup and select WILDCARD\_DOMAIN\_READY
+1. Login as admin in your project and decare in Settings / Setup and select WILDCARD\_DOMAIN\_READY
 
+Article Instructions copied from
 
-
-Article Instructions copied from 
-
-{% embed url="https://www.namecheap.com/support/knowledgebase/article.aspx/9191/29/how-to-create-a-wildcard-subdomain-in-cpanel" %}
-
-
+{% embed url="https://www.namecheap.com/support/knowledgebase/article.aspx/9191/29/how-to-create-a-wildcard-subdomain-in-cpanel" caption="" %}
 
 ## **SSL - HTTPS**
 

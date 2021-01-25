@@ -2,7 +2,7 @@
 
 ## Localization
 
-QR Menu Maker _\*\*_allowing you to easily support multiple languages within your application.
+QR Menu Maker \_\*\*\_allowing you to easily support multiple languages within your application.
 
 Available languages:
 

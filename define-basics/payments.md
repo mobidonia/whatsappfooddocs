@@ -14,21 +14,19 @@ Just create an account in stripe and fill your stripe credentials in Settings-&g
 
 One common mistake is to use plan\_id instead of price\_id. So you should use the price\_id from Stripe. As you can see in the image.
 
-![](../.gitbook/assets/plans.png)
+![](https://github.com/mobidonia/whatsappfooddocs/tree/7cc9535d1c0c56c97869348b3371410877407d5b/.gitbook/assets/plans.png)
 
 ### PayPal
 
 First, login as admin, and go in Settings. Go in the Finances tab, and make sure Tool used for subscriptions is PayPal. Just create a merchant account in PayPal and fill your PayPal credentials in Settings-&gt; Finances. First, test in development - sandbox mode.
 
-Create account on the official [PayPal website](https://www.paypal.com/) and the login with the account. 
+Create account on the official [PayPal website](https://www.paypal.com/) and the login with the account.
 
 Open this [URL](https://www.paypal.com/billing/plans) and make sure that you are logged in before you open this URL.
 
 You will see the option for creating new plans. Create your billing plans and then fill the plans information in your admin panel \(Pricing plans\).
 
-![](../.gitbook/assets/screenshot-1-.png)
-
-
+![](https://github.com/mobidonia/whatsappfooddocs/tree/7cc9535d1c0c56c97869348b3371410877407d5b/.gitbook/assets/screenshot-1-.png)
 
 ### Paddle
 

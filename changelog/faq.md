@@ -10,17 +10,13 @@ This is one of the most common problem. It happens because SMTP is not correctly
 
 {% page-ref page="../define-basics/obtain-smtp.md" %}
 
-
-
 ## How restaurants owner register?
 
-At the fronted part of the script you will find the form for  **Registration.** . The interested restaurants will fill the form, and Restaurant / owner account will be automatically created. Email will be send to them.
+At the fronted part of the script you will find the form for **Registration.** . The interested restaurants will fill the form, and Restaurant / owner account will be automatically created. Email will be send to them.
 
 The restaurant owner will need to login with the email and password \(generated password can change if he wants in profile page\). After that the owner can start filling the items / categories for his restaurant.
 
-Initially they are assigned to free plan. 
-
-
+Initially they are assigned to free plan.
 
 ## What languages the site works in?
 
@@ -36,8 +32,6 @@ The site operates in 1 language that can be defined from the .env variable. We h
 
 Easy to translate to any language. All strings are in 1 file.
 
-
-
 ## What technology is used?
 
 ### WEB \( Storefront and Dashboard \)
@@ -47,8 +41,6 @@ Easy to translate to any language. All strings are in 1 file.
 * Bootstrap - Based on Argon Design from Creative Tim
 * React JS
 * Mobile ready - Both storefront and dashboard
-
-
 
 ## How to delete the demo data?
 
@@ -60,7 +52,7 @@ Click on the SQL command icon \( [Image](https://i.imgur.com/GXetB8K.png) \)
 
 In the text area enter the following sql command. After executing [THIS](https://gist.github.com/dimovdaniel/ebbaa2bb379e92bfc1e223b306ca1531) commands, only your admin user will remain in the database.
 
-## What are the benefits for different stakeholders. 
+## What are the benefits for different stakeholders.
 
 ### Benefits for project owner
 
@@ -90,60 +82,60 @@ In the text area enter the following sql command. After executing [THIS](https:/
 
 ### Error on update 500
 
-**Problem**: When you click on the update button, you get blank screen with error 500. 
+**Problem**: When you click on the update button, you get blank screen with error 500.
 
 **Cause**: This mostly happens because there is not enough memory available. You can check "Error" pages in cPanel to confirm
 
-**Solution**: 
-- Go to you cPanel
-- There find the tool "MultiPHP INI Editor"
-- Select the project
-- memory_limit put to 512M
-- This should be enough
-- Then try to update again
+**Solution**:
 
+* Go to you cPanel
+* There find the tool "MultiPHP INI Editor"
+* Select the project
+* memory\_limit put to 512M
+* This should be enough
+* Then try to update again
 
 ### Error on update  "tmp/v2.0.x" not found
 
-**Problem**: When you click on the update button, you get blank screen with error 500. if you enable debug mode, you see the error  directory "tmp/v2.0.x" not found.
+**Problem**: When you click on the update button, you get blank screen with error 500. if you enable debug mode, you see the error directory "tmp/v2.0.x" not found.
 
 **Cause**: This mostly happens because the /tmp directory is not workspace related /tmp dir
 
-**Solution**: 
-- Go to you cPanel
-- Open File Manager
-- Open .env (it is hidden - enable hidden files)
-- Add the variable 
-- SELF_UPDATER_DOWNLOAD_PATH="/home/YOUR_WORKSPACE_NAME/tmp/" 
-- Then try again to update
+**Solution**:
 
+* Go to you cPanel
+* Open File Manager
+* Open .env \(it is hidden - enable hidden files\)
+* Add the variable 
+* SELF\_UPDATER\_DOWNLOAD\_PATH="/home/YOUR\_WORKSPACE\_NAME/tmp/" 
+* Then try again to update
 
 ### Error on update 503
 
 **Problem**: After an update, some users experience error 503 \| Service not found.
 
-**Cause**: This mostly happens because your PHP setup doesn't have the ZIP extension enabled. 
+**Cause**: This mostly happens because your PHP setup doesn't have the ZIP extension enabled.
 
-**Solution**: 
+**Solution**:
 
-You will need to enable the ZIP extension 
+You will need to enable the ZIP extension
 
 This is the best and simplest guide we could find on how to enable the ZIP extension in cPanel
 
-{% embed url="https://bobcares.com/blog/enable-php-zip-extension-cpanel/" %}
+{% embed url="https://bobcares.com/blog/enable-php-zip-extension-cpanel/" caption="" %}
 
 Also, please talk with your hosting provider on how to enable the zip extension for you.
 
 ## Error 500
 
 **Problem**  
-You get a white screen with Error 500 on it 
+You get a white screen with Error 500 on it
 
 **Reason**  
-This is a general error, meaning something wrong happened in the system. And it can be from different causes. it can be a bug or misconfiguration. 
+This is a general error, meaning something wrong happened in the system. And it can be from different causes. it can be a bug or misconfiguration.
 
 **Solution**  
-First, we need to see why this error happens,   
+First, we need to see why this error happens,  
 Enable debug mode, so you can see what is behind the 500 error. To do that
 
 1. Login as admin
@@ -151,44 +143,40 @@ Enable debug mode, so you can see what is behind the 500 error. To do that
 3. Select **Setup** tab
 4. Select **APP\_DEBUG**
 
-Then try to reproduce the problem. Now, you will see a lot more information about the problem. If you do understand the message, you get, you may fix the problem on your own. Some common ones are SMTP are Stripe Misconfiguration. For these ones you may try to fix on your own, by going in settings to check if what you have entered is correct. 
+Then try to reproduce the problem. Now, you will see a lot more information about the problem. If you do understand the message, you get, you may fix the problem on your own. Some common ones are SMTP are Stripe Misconfiguration. For these ones you may try to fix on your own, by going in settings to check if what you have entered is correct.
 
 For some other reported errors, don't hesitate to contact us with a screenshot of the problem \( including the address bar link \) here [https://help.mobidonia.com/](https://help.mobidonia.com)
 
 ## Error 500 on migrating languages
 
 **Problem**  
-Before, 2.0.8 if you try to migrate language you can get error 500. 
-And some of the item like the categories, can be translated multiple times like ```{en:\\\en:\\\......}```
+Before, 2.0.8 if you try to migrate language you can get error 500. And some of the item like the categories, can be translated multiple times like `{en:\\\en:\\\......}`
 
 **Reason**  
-This happens because we didn't look into object active status.
-And script crashed when it tried to translate un-active record.
+This happens because we didn't look into object active status. And script crashed when it tried to translate un-active record.
 
 **Solution**  
-Update to 2.0.8+
-For the ```{en:\\\en:\\\......}```, if you don't have lot of data, you can manually edit them from the admin.
-If you have lot of data, 
-- Export the categories and items table
-- Find replace, so it looks normal
-- Delete categories and items by ignoring foreign keys and import again
-Or ask for help from us. 
+Update to 2.0.8+ For the `{en:\\\en:\\\......}`, if you don't have lot of data, you can manually edit them from the admin. If you have lot of data,
 
-Then make the translation migration again. Now should go fine. 
+* Export the categories and items table
+* Find replace, so it looks normal
+* Delete categories and items by ignoring foreign keys and import again
 
+  Or ask for help from us. 
 
+Then make the translation migration again. Now should go fine.
 
 ## SQL Error - Table not found
 
-**Error**   
+**Error**  
 After installation, when you open your site, you see an error screen with a report similar to this.
 
 ```text
-local.ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'plan.plan_id' 
+local.ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'plan.plan_id'
 ```
 
 **Reason**  
-The most common problem for this is because you have entered the wrong credentials/user/pass for the Database and the setup of the database was incomplete. 
+The most common problem for this is because you have entered the wrong credentials/user/pass for the Database and the setup of the database was incomplete.
 
 **Solution**
 
@@ -196,24 +184,22 @@ The most common problem for this is because you have entered the wrong credentia
 2. Remove file storage/installed
 3. Try to install again by visiting yourdomain.com/install
 
-If that doesn't help, please create a ticket, and if you can share cPanel / Admin details with us so we can look into the problem. 
+If that doesn't help, please create a ticket, and if you can share cPanel / Admin details with us so we can look into the problem.
 
-
-
-## Error on uploading an image 
+## Error on uploading an image
 
 **Error**
 
 "PHP Fileinfo extension must be installed
 
 **Reason**  
- "PHP Fileinfo extension must be installed/enabled to use Intervention Image."
+"PHP Fileinfo extension must be installed/enabled to use Intervention Image."
 
-The project needs the [fileinfo](https://i.stack.imgur.com/vhN3E.png) extension. 
+The project needs the [fileinfo](https://i.stack.imgur.com/vhN3E.png) extension.
 
 **Solution**
 
-As you can see on the [image](https://i.stack.imgur.com/vhN3E.png), it can be enabled from PHP Selector. But if there is no  PHP Selector you should have access to **WHM**.
+As you can see on the [image](https://i.stack.imgur.com/vhN3E.png), it can be enabled from PHP Selector. But if there is no PHP Selector you should have access to **WHM**.
 
 **IN WHM**
 
@@ -226,10 +212,4 @@ Here we search for **fileinfo** and enable phpx.x-php-fileinfo for all versions.
 This enables the file extension for all the PHP websites in the server.
 
 Let me know about this.
-
-
-
-
-
-
 
