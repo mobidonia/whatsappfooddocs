@@ -1,4 +1,4 @@
 # Initial page
 
-Init
+Init page
 
