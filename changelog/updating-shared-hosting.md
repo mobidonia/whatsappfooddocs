@@ -16,8 +16,8 @@ In case, you have made any changes on the code, css or js file. Backup them firs
 
 ### 2. Backup these files and folder in case something goes wrong
 
-* [ ] public/uploads - here are the uploaded imagges \( you can zip it and move it somewhere \)
-* [ ] public/byadmin - here are the custom css entered from the admin - if you have any
+* [ ] public/uploads - here are the uploaded images \( you can zip it and move it somewhere \)
+* [ ] public/byadmin - here are the custom CSS entered from the admin - if you have any
 * [ ] .env \( **Required**  - Download it\)
 * [ ] modified - created language files - resource/lang/YOUR\_LOCALE
 
