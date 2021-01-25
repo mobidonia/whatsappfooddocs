@@ -11,15 +11,17 @@ You will need to have SMTP \( way to send mail \) because the system will use it
 
 #### SMTP from shared hosting
 
-This is probably the easiest way to obtain SMTP data. Create an email in your hosting and get note of the credentials. You will need them in the install process.
+This is probably the easiest way to obtain SMTP data. Create an email in your hosting and get a note of the credentials. You will need them in the install process.
+
+
 
 ![](https://github.com/mobidonia/whatsappfooddocs/tree/7cc9535d1c0c56c97869348b3371410877407d5b/.gitbook/assets/email_accounts.png)
 
-Then click on "Connect Device". You will find all required info there
+Then click on "Connect Device". You will find all the required info there
 
 ![](https://github.com/mobidonia/whatsappfooddocs/tree/7cc9535d1c0c56c97869348b3371410877407d5b/.gitbook/assets/connect_devices.png)
 
-Here are some examples how it may look
+Here are some examples of how it may look
 
 {% tabs %}
 {% tab title="SSL" %}
@@ -68,7 +70,7 @@ SendGrid is the leading SMTP provider. Easy to set up and reliable service.
 
 Get an account [here](https://sendgrid.com/).
 
-[This article](https://sendgrid.com/docs/API_Reference/SMTP_API/integrating_with_the_smtp_api.html) is important in order to setup your SendGrid SMTP correct.
+[This article](https://sendgrid.com/docs/API_Reference/SMTP_API/integrating_with_the_smtp_api.html) is important in order to set up your SendGrid SMTP correctly.
 
 **Required**: You need to Authenticate your domain to send emails from. [Here](https://sendgrid.com/docs/ui/account-and-settings/how-to-set-up-domain-authentication/) is how.
 
