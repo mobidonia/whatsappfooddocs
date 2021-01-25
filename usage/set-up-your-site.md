@@ -31,20 +31,6 @@ To modify the images, you can do that from Admin-&gt;Settings-&gt;Images.
 
 To change the text, you can do that via the inline editing tool on the front page if you login as admin.
 
-## Add more download print templates / change existing
-
-At the moment, manually upload your zip of template directly in the "**public**" folder or create a new folder in there. You can also upload the zip in some File Storage like Google Drive, One Drive etc..  
-Then, get the link to the zip file, and in your .ENV editor add or edit variable **linkToTemplates** that will link to the zip.
-
-To change the images displayed there, upload the images to the public folder or in some image share tool like Imgur. Get the links and enter them as .ENV variable templates, comma-separated.
-
-ex
-
-```text
-linkToTemplates="/impactfront/img/templates.zip"
-templates="/impactfront/img/menu_template_1.jpg,/impactfront/img/menu_template_2.jpg"
-```
-
 ## How to disable landing page
 
 In your .env editor add new variable DISABLE\_LANDING and set it to true. Then only the dashboard will be shown. In this case, best will be the project to be installed in the subdomain. ex app.mydomain.com and on mydomain.com you to run your own site. It can be any Wordpress or HTML site.

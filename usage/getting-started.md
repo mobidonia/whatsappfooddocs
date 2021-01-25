@@ -6,7 +6,7 @@ description: Learn about the roles
 
 ## User roles <a id="41-user-roles"></a>
 
-QR Menu Maker supports two different roles for user account **admin** and **owner**. One user account can't be all roles.
+This project supports two different roles for user account **admin** and **owner**. One user account can't be all roles.
 
 An **admin** is responsible for:
 
