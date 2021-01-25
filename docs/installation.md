@@ -1,12 +1,12 @@
 ---
-description: Learn how to install QR Menu Maker
+description: Learn how to install WhatsApp Food Ordering
 ---
 
 # Installation on Shared Hosting
 
 ## Requirements
 
-QR Menu Maker is a self-hosted web application written in PHP on top of the Laravel 5.8 framework. The followings are required to install QR Menu Maker:
+WhatsApp Food Ordering is a self-hosted web application written in PHP on top of the Laravel 8.0 framework. The followings are required to install WhatsApp Food Ordering:
 
 * PHP Version: 7.4 or 8.0
 * MySQL Version: &gt;= 5.x
@@ -15,7 +15,7 @@ QR Menu Maker is a self-hosted web application written in PHP on top of the Lara
 
 ## Prepare to install
 
-Installing QR Menu Maker is very easy and you'll be able to install it without any coding knowledge. The installation process included three major steps:
+Installing WhatsApp Food Ordering is very easy and you'll be able to install it without any coding knowledge. The installation process included three major steps:
 
 1. **Creating domain or subdomain**
 2. **Creating a database**
@@ -45,9 +45,6 @@ Create an empty database in your shared hosting and remember this credentials
 * db username
 * db user pass
 
-The process of making database is something like this.
-
-![](../.gitbook/assets/dbadd.png)
 
 #### 3.  Upload the source code you have downloaded from CodeCanyon and unzip it
 
@@ -55,63 +52,9 @@ The process of making database is something like this.
 
 ex. mydomain.com or subdomain.mydomain.com
 
-Click on the "Check Requirements" If some requirements is missing it will be noted out.
+The installation screen should appear and guide you in the process.
 
-![](../.gitbook/assets/system.png)
-
-Now let's check folder permissions. If some folder is noted as not writable, please check his permission. It should be 775 or 777
-
-![](../.gitbook/assets/permissions.png)
-
-Now we need to set up the environment. This tells Laravel how to work.
-
-![](../.gitbook/assets/classic.png)
-
-Select the classic text editor.
-
-![](../.gitbook/assets/save_env%20%281%29.png)
-
-**5. Environment Configuration**
-
-{% hint style="info" %}
-**Note:** This configuration requires many steps so we will explain this more detail.
-{% endhint %}
-
-As we already mentioned environment configuration requires many steps but just for the beginning we will need only several configurations:
-
-* **Applications Basics** These are the first variables you will need to change.
-
-```text
-APP_NAME=Application name goes here
-APP_ENV=production
-APP_URL=Your website url goes here
-```
-
-* **Database Configuration** Click on the article below to continue with the database configuration.
-
-{% page-ref page="../define-basics/database.md" %}
-
-\*\*\*\*
-
-When you finish with this configuration don't forget to save the .env file.
-
-![](../.gitbook/assets/save_env.png)
-
-Click on **Save and install**
-
-Now the install process will begin
-
-It will install all the necessary configurations. If some error occurs, the next screen will tell you that. Take a screenshot from it. Send to our [support chat](https://help.mobidonia.com/#QR%20Menu%20Maker).
-
-If all goes okay, you can click on "Finish".
-
-Now you have your own instance but the configuration is not over. Now you need to continue with the other environment configuration.
-
-When you login as admin, you will have the option to modify and add .env values.
-
-Click on the article below to continue with the other configuration. Everything is explained step by step.
-
-{% page-ref page="environment-configuration.md" %}
+When you login as admin, in Site Settings you have the option to change all the settings. 
 
 {% hint style="danger" %}
 Don't forget to do the SMTP setup. Without it, you will get error 500 on register.
