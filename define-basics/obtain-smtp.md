@@ -15,11 +15,11 @@ This is probably the easiest way to obtain SMTP data. Create an email in your ho
 
 
 
-![](https://github.com/mobidonia/whatsappfooddocs/tree/7cc9535d1c0c56c97869348b3371410877407d5b/.gitbook/assets/email_accounts.png)
+![](https://i.imgur.com/t9Awl7B.png)
 
 Then click on "Connect Device". You will find all the required info there
 
-![](https://github.com/mobidonia/whatsappfooddocs/tree/7cc9535d1c0c56c97869348b3371410877407d5b/.gitbook/assets/connect_devices.png)
+![](https://i.imgur.com/QPpwKY2.png)
 
 Here are some examples of how it may look
 
