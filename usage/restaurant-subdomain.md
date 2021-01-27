@@ -11,22 +11,22 @@ The main site is [https://zebra-qr.com/](https://zebra-qr.com/) and there you ca
 1. Log into your cPanel.  
 2. Navigate to **Domains** section &gt; **Subdomains** menu:
 
-![Click on Subdomain](https://github.com/mobidonia/whatsappfooddocs/tree/7cc9535d1c0c56c97869348b3371410877407d5b/.gitbook/assets/subdomain.png)
+![Click on Subdomain](https://i.imgur.com/vZwGbTb.png)
 
 1. Create a subdomain **\***
 2. Enter \* for Subdomain
 3. Select your domain
 4. Select \( enter \) the same document root - in this case /public\_html
 
-![Enter \* for Subdomain](https://github.com/mobidonia/whatsappfooddocs/tree/7cc9535d1c0c56c97869348b3371410877407d5b/.gitbook/assets/the_subdomain.png)
+![Enter \* for Subdomain](https://i.imgur.com/pvLR1Qb.png)
 
 1. Go to the **Zone Editor** menu:
 
-![](https://github.com/mobidonia/whatsappfooddocs/tree/7cc9535d1c0c56c97869348b3371410877407d5b/.gitbook/assets/wildcard3.png)
+![](https://i.imgur.com/DP4iqZo.png)
 
 1. Make sure that there is an **A record** for **\*.yourdomain.com** created and pointed to the server IP address \(it could coincide with the IP address of your main domain or ftp.yourdomain.com is pointed to\):
 
-![](https://github.com/mobidonia/whatsappfooddocs/tree/7cc9535d1c0c56c97869348b3371410877407d5b/.gitbook/assets/pl_subdomain_5.png)
+![](https://i.imgur.com/jis2IiF.png)
 
 1. Now, you will need to wait until the **propagation is over** \(it should take N seconds, where N – is **TTL** for this A record; you can edit it manually and reduce the number to speed up the process\), and then the wildcard subdomain will work correctly.
 
