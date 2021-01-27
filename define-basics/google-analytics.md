@@ -14,7 +14,7 @@ Click **Create Property**, **\*\*select** Web **and then** Continue.\*\*
 
 ![](https://i.imgur.com/lENJfIA.png)
 
-![](https://i.imgur.com/36l8Cbm.png )
+![](https://i.imgur.com/36l8Cbm.png%20)
 
 After that it will appear screen with information for your website.
 
