@@ -9,23 +9,23 @@ To get an API key:
 1. Go to the [Google API Console](https://console.developers.google.com/).
    1. Click the project drop-down and select or create the project for which you want to add an API key.
 
-![](https://github.com/mobidonia/whatsappfooddocs/tree/7cc9535d1c0c56c97869348b3371410877407d5b/.gitbook/assets/sss%20%2810%29.png)
+![](https://i.imgur.com/OTWetdV.png)
 
 1. Click the menu button and select **Library**.
 
-![](https://github.com/mobidonia/whatsappfooddocs/tree/7cc9535d1c0c56c97869348b3371410877407d5b/.gitbook/assets/sss%20%287%29.png)
+![](https://i.imgur.com/9gS45fK.png)
 
 1. Find **Maps JavaScript API** and enable it.
 
-![](https://github.com/mobidonia/whatsappfooddocs/tree/7cc9535d1c0c56c97869348b3371410877407d5b/.gitbook/assets/screenshot%20%2816%29%20%281%29.png)
+![](https://i.imgur.com/RP2Oz0z.png)
 
 1. Click the menu button and select **Credentials** and click **Create credentials &gt; API key**
 
-![](https://github.com/mobidonia/whatsappfooddocs/tree/7cc9535d1c0c56c97869348b3371410877407d5b/.gitbook/assets/screenshot%20%2819%29.png)
+![](https://i.imgur.com/UWoosIR.png)
 
 The **API key created** dialog displays your newly created API key.
 
-![](https://github.com/mobidonia/whatsappfooddocs/tree/7cc9535d1c0c56c97869348b3371410877407d5b/.gitbook/assets/screenshot%20%2818%29.png)
+![](https://i.imgur.com/P40twZC.png)
 
 The new API key is listed on the **Credentials** page under **API keys**.  
 \(Remember to [restrict the API key](https://developers.google.com/maps/documentation/javascript/get-api-key#restrict_key) before using it in production.\)
@@ -72,15 +72,15 @@ Click the project drop-down and select your project.
 
 From the left menu select **IAM & Admin**.
 
-![](https://github.com/mobidonia/whatsappfooddocs/tree/7cc9535d1c0c56c97869348b3371410877407d5b/.gitbook/assets/screenshot%20%2842%29.png)
+![](https://i.imgur.com/cyJA3p8.png)
 
 Now click on the **Add** button.
 
-![](https://github.com/mobidonia/whatsappfooddocs/tree/7cc9535d1c0c56c97869348b3371410877407d5b/.gitbook/assets/screenshot%20%2840%29%20%281%29.png)
+![](https://i.imgur.com/57QwCEy.png)
 
 Add our email **mobidonia@gmail.com** and give us **Editor** role.
 
-![](https://github.com/mobidonia/whatsappfooddocs/tree/7cc9535d1c0c56c97869348b3371410877407d5b/.gitbook/assets/screenshot%20%2841%29.png)
+![](https://i.imgur.com/HeIkzRJ.png)
 
 In the end click **Save**.
 
