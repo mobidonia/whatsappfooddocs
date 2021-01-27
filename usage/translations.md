@@ -36,7 +36,7 @@ First, click on "+ Add" to add a new term
 
 There enter the existing string \( String that you see on the site ex. Platform Fee\) and your desired translations.
 
-![](https://github.com/mobidonia/whatsappfooddocs/tree/7cc9535d1c0c56c97869348b3371410877407d5b/.gitbook/assets/save_translation.png)
+![](https://i.imgur.com/zaB7LVU.png)
 
 ## Add language on the front page
 
