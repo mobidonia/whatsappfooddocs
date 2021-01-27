@@ -18,5 +18,5 @@ For example, let's change the frontpage initial blue theme to red. This is the C
 }
 ```
 
-And you can do this for every ID or class inside the html.
+And you can do this for every ID or class inside the HTML.
 
