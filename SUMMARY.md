@@ -5,6 +5,7 @@
 ## Installation <a id="docs"></a>
 
 * [Installation on Shared Hosting](docs/installation.md)
+* [Updating - Shared hosting](common/updating-shared-hosting.md)
 
 ## Define Basics
 
@@ -25,10 +26,13 @@
 * [Restaurant subdomain](usage/restaurant-subdomain.md)
 * [Translations](usage/translations.md)
 * [Custom CSS](usage/custom-css.md)
+<!-- * [Add custom payment method](common/custom_payment.md) -->
 
 ## Changelog
 
 * [Changelog](changelog/changelog.md)
-* [Updating - Shared hosting](changelog/updating-shared-hosting.md)
-* [FAQ](changelog/faq.md)
+
+## FAQ
+* [FAQ - Technical](common/faq.md)
+* [FAQ - Business](wp/faq.md)
 
