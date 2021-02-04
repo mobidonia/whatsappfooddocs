@@ -17,7 +17,8 @@
 
 ## Plugins
 
-* [ShareThis](plugins/sharethis.md)
+* [ShareThis](common/sharethis.md)
+* [Cookie Consent](common/cookieconsent.md)
 
 ## Usage
 

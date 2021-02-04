@@ -1,0 +1,3 @@
+[submodule "commondocs"]
+	path = commondocs
+	url = https://github.com/mobidonia/commondocs
