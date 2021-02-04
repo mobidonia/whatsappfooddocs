@@ -14,14 +14,6 @@
 * [Localization and Time format](common/localization.md)
 * [Pricing Plans](common/payments.md)
 
-
-## Plugins
-
-* [ShareThis](common/sharethis.md)
-* [Cookie Consent](common/cookieconsent.md)
-* [Google Analytics](common/google-analytics.md)
-* [Google Map API](common/google-map-api.md)
-
 ## Usage
 
 * [Getting Started](common/getting-started.md)
@@ -30,6 +22,14 @@
 * [Translations](common/translations.md)
 * [Custom CSS](common/custom-css.md)
 <!-- * [Add custom payment method](common/custom_payment.md) -->
+
+## Plugins
+
+* [ShareThis](common/sharethis.md)
+* [Cookie Consent](common/cookieconsent.md)
+* [Google Analytics](common/google-analytics.md)
+* [Google Map API](common/google-map-api.md)
+
 
 ## Changelog
 
