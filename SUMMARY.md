@@ -4,30 +4,30 @@
 
 ## Installation <a id="docs"></a>
 
-* [Installation on Shared Hosting](docs/installation.md)
+* [Installation on Shared Hosting](common/installation.md)
 * [Updating - Shared hosting](common/updating-shared-hosting.md)
+* [Run local](common/run-locally.md)
 
 ## Define Basics
 
-* [Mail server](define-basics/obtain-smtp.md)
-* [Localization and Time format](define-basics/localization.md)
-* [Pricing Plans](define-basics/payments.md)
-* [Google Analytics](define-basics/google-analytics.md)
-* [Google Map API](define-basics/google-map-api.md)
+* [Mail server](common/obtain-smtp.md)
+* [Localization and Time format](common/localization.md)
+* [Pricing Plans](common/payments.md)
+* [Google Analytics](common/google-analytics.md)
+* [Google Map API](common/google-map-api.md)
 
 ## Plugins
 
 * [ShareThis](common/sharethis.md)
 * [Cookie Consent](common/cookieconsent.md)
-* [Test](commondocs/faq.md)
 
 ## Usage
 
-* [Getting Started](usage/getting-started.md)
-* [Set up your site](usage/set-up-your-site.md)
-* [Restaurant subdomain](usage/restaurant-subdomain.md)
-* [Translations](usage/translations.md)
-* [Custom CSS](usage/custom-css.md)
+* [Getting Started](common/getting-started.md)
+* [Set up your site](common/set-up-your-site.md)
+* [Restaurant subdomain](common/restaurant-subdomain.md)
+* [Translations](common/translations.md)
+* [Custom CSS](common/custom-css.md)
 <!-- * [Add custom payment method](common/custom_payment.md) -->
 
 ## Changelog
