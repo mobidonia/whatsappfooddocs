@@ -23,7 +23,5 @@ Just log in as admin, go to "Site Settings" and on right top you should new "New
 
 [File list](https://gist.github.com/dimovdaniel/6b51bda8517cc0804d1c0c99196d63c8)
 
-https://gist.github.com/dimovdaniel/6b51bda8517cc0804d1c0c99196d63c8
-
 ## 2.1.0  - Initial
 
