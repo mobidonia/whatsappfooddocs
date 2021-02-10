@@ -4,21 +4,21 @@
 
 By default is set in English but you can change it on some of the available languages.
 
-```text
-APP_LOCALE=en
-```
+This option you will find in **Settings &gt; Localization**.
 
-### **Manually adding new language**
+![](../.gitbook/assets/screenshot.png)
 
-Since some of the languages are still not available you can add manually new language. There are several steps you need to do for achieving that.
+### **Adding new language**
 
-In the source code find **resources &gt; lang &gt; en.json** file. Copy the file and paste in the same location.
+Since some of the languages are still not available you can add manually new language. There are several steps you need to do for achieving that using **Translation plugin** available with the admin account.
 
-Rename the copied file into your new language code and save it.
+Open the translation plugin located in the side menu under name **Translations**.
 
-Open the file and translate the English words or sentences into your new language.
+When the translations page will be opened select the **Languages** menu from the navigation.
 
-When you finish with this change your new language code in the **APP\_LOCALE** environment variable.
+Click on the **Add** button and enter the **language name/locale** and save it. 
+
+Now you will able to see all the words and sentences that you will need to translate it manually.
 
 ## Time Format
 
