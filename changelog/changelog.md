@@ -1,17 +1,19 @@
 # Changelog
 
-
-## 2.1.1  - 2021-02-10 
+## 2.1.1  - 2021-02-10
 
 ### New
+
 * Cookie Consent 
 * Register in pop up
 * GDRP on Register
 
 ### Fixes
+
 * Live Orders Fixes
 
 ### Improvements
+
 * Full list of currencies
 * Better error 500 show
 

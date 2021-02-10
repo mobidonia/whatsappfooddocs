@@ -1,5 +1,9 @@
 # Translations
 
+## The easiest way to translate
+
+{% embed url="https://www.youtube.com/watch?v=tVNj-bOXk\_E" %}
+
 ## How to add a new language
 
 To add a missing language, login as admin, and go to Translations.
