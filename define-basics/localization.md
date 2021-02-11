@@ -12,13 +12,9 @@ This option you will find in **Settings &gt; Localization**.
 
 Since some of the languages are still not available you can add manually new language. There are several steps you need to do for achieving that using **Translation plugin** available with the admin account.
 
-Open the translation plugin located in the side menu under name **Translations**.
+For more detailed information check the **Translations** article on the link below
 
-When the translations page will be opened select the **Languages** menu from the navigation.
-
-Click on the **Add** button and enter the **language name/locale** and save it. 
-
-Now you will able to see all the words and sentences that you will need to translate it manually.
+{% page-ref page="../usage/translations.md" %}
 
 ## Time Format
 
