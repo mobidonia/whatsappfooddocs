@@ -181,3 +181,14 @@ This enables the file extension for all the PHP websites in the server.
 
 Let me know about this.
 
+## How to change WhatsApp Message
+
+### Change the text
+To just simply  change the text, go inside the admin area and then in Translations. 
+In Translations, select the "Single" group and look for the text you want to change. 
+
+### Change the layout
+To change the content and layout or completely modify the message, open **resources/views/messages/social.blade.php**.
+
+Here you are able to modify the complete message send on WhatsApp. 
+
