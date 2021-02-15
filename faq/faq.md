@@ -88,6 +88,28 @@ This is the best and simplest guide we could find on how to enable the ZIP exten
 
 Also, please talk with your hosting provider on how to enable the zip extension for you.
 
+## Update via FTP
+
+Where for some reason, the one-click update can't work, you can easily update via FTP.   
+  
+We post the updated file publicly. And you can download the updates from [here](https://updates.restoqr.online/v2/). 
+
+Go inside your current version. There should be a zip file. If the zip file version, is bigger than current, there is an update for that version. 
+
+Download the zip file and extract it locally. 
+
+Connect to your FTP, and navigate to the root of it. 
+
+Drag and Drop the folders from the update to your FTP. Overwrite them. 
+
+Repeat the procedure until you see that this is the latest version. 
+
+![Drag and Drop to upload](https://i.imgur.com/jSUh6Rr.png)
+
+![Overwrite]((https://i.imgur.com/AlYBBCo.png))
+
+
+
 ## Error 500
 
 **Problem**  
@@ -180,15 +202,4 @@ Here we search for **fileinfo** and enable phpx.x-php-fileinfo for all versions.
 This enables the file extension for all the PHP websites in the server.
 
 Let me know about this.
-
-## How to change WhatsApp Message
-
-### Change the text
-To just simply  change the text, go inside the admin area and then in Translations. 
-In Translations, select the "Single" group and look for the text you want to change. 
-
-### Change the layout
-To change the content and layout or completely modify the message, open **resources/views/messages/social.blade.php**.
-
-Here you are able to modify the complete message send on WhatsApp. 
 
