@@ -2,8 +2,12 @@
 
 ## 2.1.x - Continues updates
 
+<<<<<<< HEAD
 *  2.1.6 - PayPal payment for restaurant, Fixes on variant show - [Modified Files](https://gist.github.com/dimovdaniel/90d555271a5db0c6f2cf7980e69befab)
 *  2.1.5 - New way of updates, fixes in image upload in settings  - [Modified Files](https://gist.github.com/dimovdaniel/786c82b2776eda1d47a97a5ec9c970c4) -- (YOU WILL GET ERROR 500 - but that is ok, since now we have new system for update )
+=======
+* 2.1.5 - New way of updates, fixes in image upload in settings  - [Modified Files](https://gist.github.com/dimovdaniel/786c82b2776eda1d47a97a5ec9c970c4) -- \(YOU WILL GET ERROR 500 - but that is ok, since now we have new system for update \)
+>>>>>>> 21aac9bca76a84e9f6235be843ed1477dbceaf8b
 * 2.1.4 - WhatsApp Message is separate blade file - [Modified Files](https://gist.github.com/dimovdaniel/7a3fad29bf15241fe310fdecd8e0da68)
 * 2.1.3 - Fixes in Mollie payments - [Modified Files](https://gist.github.com/dimovdaniel/644f827344deed01443309429f56a542)
 * 2.1.2 - Missing Translations, Live Order fix, CSS fixes, Fix on deleting demo data -   [Modified files](https://gist.github.com/dimovdaniel/165ae8c25bbf1fce08cb5a2243127fef)
