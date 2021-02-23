@@ -22,6 +22,7 @@
 * [Restaurant subdomain](usage/restaurant-subdomain.md)
 * [Translations](usage/translations.md)
 * [Custom CSS](usage/custom-css.md)
+* [Custom Fields on Order](usage/custom-fields-on-order.md)
 
 ## Plugins
 

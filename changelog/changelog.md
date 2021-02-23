@@ -1,6 +1,6 @@
 # Changelog
 
-### 2.1.x - 2.2.x Continues updates
+## 2.1.x - 2.2.x Continues updates
 
 * 2.2.0 - Categories sorting, Fix for Stripe 3d secure or plan subscribe - [Files](https://gist.github.com/dimovdaniel/4e168f71933b3249a4e853e5f6995b21)
 * 2.1.9 - Temporary update 
@@ -12,24 +12,24 @@
 * 2.1.3 - Fixes in Mollie payments - [Modified Files](https://gist.github.com/dimovdaniel/644f827344deed01443309429f56a542)
 * 2.1.2 - Missing Translations, Live Order fix, CSS fixes, Fix on deleting demo data -   [Modified files](https://gist.github.com/dimovdaniel/165ae8c25bbf1fce08cb5a2243127fef)
 
-### 2.1.1  - 2021-02-10
+## 2.1.1  - 2021-02-10
 
-#### New
+### New
 
 * Cookie Consent 
 * Register in pop up
 * GDRP on Register
 
-#### Fixes
+### Fixes
 
 * Live Orders Fixes
 
-#### Improvements
+### Improvements
 
 * Full list of currencies
 * Better error 500 show
 
-#### How to update
+### How to update
 
 Just log in as admin, go to "Site Settings" and on right top you should new "New Update 2.1.1". Click on the button to update.
 
@@ -37,5 +37,5 @@ Just log in as admin, go to "Site Settings" and on right top you should new "New
 
 [File list](https://gist.github.com/dimovdaniel/6b51bda8517cc0804d1c0c99196d63c8)
 
-### 2.1.0  - Initial
+## 2.1.0  - Initial
 
