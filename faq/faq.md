@@ -106,7 +106,7 @@ Repeat the procedure until you see that this is the latest version.
 
 ![Drag and Drop to upload](https://i.imgur.com/jSUh6Rr.png)
 
-!\[Overwrite\]\(\([https://i.imgur.com/AlYBBCo.png](https://i.imgur.com/AlYBBCo.png)\)\)
+![Overwrite](https://i.imgur.com/AlYBBCo.png)
 
 ## Error 500
 
