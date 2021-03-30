@@ -21,6 +21,7 @@
 * [Set up your site](usage/set-up-your-site.md)
 * [Restaurant subdomain](usage/restaurant-subdomain.md)
 * [Translations](usage/translations.md)
+* [Multilingual menu](usage/multilingual-menu.md)
 * [Custom CSS](usage/custom-css.md)
 * [Custom Fields on Order](usage/custom-fields-on-order.md)
 
