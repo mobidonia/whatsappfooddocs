@@ -18,7 +18,7 @@ Click on the the enabled tool and customize the buttons that you will use in you
 
 After you finish with the customization from the left menu select **Settings** and find your **Property ID**.
 
-Now lets add these credential in your Settings page. Select **Plugins** option.
+Now you can add this credential in your Settings page. Select **Plugins** option.
 
 ![](https://i.imgur.com/g7zGeg5.png)
 

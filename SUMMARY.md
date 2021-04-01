@@ -31,6 +31,7 @@
 * [Cookie Consent](plugins/cookieconsent.md)
 * [Google Analytics](plugins/google-analytics.md)
 * [Google Map API](plugins/google-map-api.md)
+* [Futy](plugins/futy.md)
 
 ## Changelog
 
