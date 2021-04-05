@@ -16,6 +16,7 @@
 
 ## Usage
 
+* [Project plugins](usage/project-plugins.md)
 * [Import from CSV](usage/import-from-csv.md)
 * [Getting Started](usage/getting-started.md)
 * [Set up your site](usage/set-up-your-site.md)
