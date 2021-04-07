@@ -28,6 +28,7 @@
 
 ## Plugins
 
+* [How to install plugin](plugins/how-to-install-plugin.md)
 * [ShareThis](plugins/sharethis.md)
 * [Cookie Consent](plugins/cookieconsent.md)
 * [Google Analytics](plugins/google-analytics.md)
