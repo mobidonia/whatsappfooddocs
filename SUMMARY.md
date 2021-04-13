@@ -16,7 +16,6 @@
 
 ## Usage
 
-* [Project plugins](usage/project-plugins.md)
 * [Import from CSV](usage/import-from-csv.md)
 * [Getting Started](usage/getting-started.md)
 * [Set up your site](usage/set-up-your-site.md)
@@ -25,6 +24,7 @@
 * [Multilingual menu](usage/multilingual-menu.md)
 * [Custom CSS](usage/custom-css.md)
 * [Custom Fields on Order](usage/custom-fields-on-order.md)
+* [Add your own landing page](usage/add-your-own-landing-page.md)
 
 ## Plugins
 
