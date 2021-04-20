@@ -53,7 +53,7 @@ Easy to translate to any language. All strings are in few files.
 * Go to your cPanel
 * There find the tool "MultiPHP INI Editor"
 * Select the project
-* memory\_limit put to 512M
+* memory\_limit put to 512M or even more.
 * This should be enough
 * Then try to update again
 
