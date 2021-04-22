@@ -88,6 +88,14 @@ This is the best and simplest guide we could find on how to enable the ZIP exten
 
 Also, please talk with your hosting provider on how to enable the zip extension for you.
 
+### Error on update version 2.4.1
+
+**Problem:** There is no existing directory at "/var/www/html/storage/logs" and it could not be created: Permission denied.
+
+**Cause**: This mostly happens because of storage/logs permissions or cache.
+
+**Solution:** Delete everything inside bootstrap/cache directory and reload the page.
+
 ## Update via FTP
 
 When for some reason, the one-click update can't work, you can easily update via FTP.
