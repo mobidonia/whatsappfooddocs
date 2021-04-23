@@ -53,7 +53,7 @@ Easy to translate to any language. All strings are in few files.
 * Go to your cPanel
 * There find the tool "MultiPHP INI Editor"
 * Select the project
-* memory\_limit put to 512M
+* memory\_limit put to 512M or even more.
 * This should be enough
 * Then try to update again
 
@@ -87,6 +87,14 @@ This is the best and simplest guide we could find on how to enable the ZIP exten
 {% embed url="https://bobcares.com/blog/enable-php-zip-extension-cpanel/" caption="" %}
 
 Also, please talk with your hosting provider on how to enable the zip extension for you.
+
+### Error on update version 2.4.1
+
+**Problem:** There is no existing directory at "/var/www/html/storage/logs" and it could not be created: Permission denied.
+
+**Cause**: This mostly happens because of storage/logs permissions or cache.
+
+**Solution:** Delete everything inside bootstrap/cache directory and reload the page.
 
 ## Update via FTP
 
