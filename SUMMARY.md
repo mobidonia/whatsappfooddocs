@@ -34,6 +34,7 @@
 * [Google Analytics](plugins/google-analytics.md)
 * [Google Map API](plugins/google-map-api.md)
 * [Futy](plugins/futy.md)
+* [Thermal Printer Module](plugins/thermal-printer-module.md)
 
 ## Changelog
 
