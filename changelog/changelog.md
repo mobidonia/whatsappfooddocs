@@ -1,5 +1,26 @@
 # Changelog
 
+## 2.5.0 - 2021-06-19
+
+### New
+* Delivery cost with delivery areas
+* Logo for restaurants in the header area
+
+### Improvements
+* Better SEO
+* Items import
+* Limit number of orders in plan
+
+# Fixes
+* Delivery address not showing in order details
+
+### How to update
+Just log in as admin, go to "Updates" and you should see new "New Update 2.5.0" button. Click on the button to update. Note that this is a bigger update. Please check the List of files to confirm it will not overwrite some of your changes if you have them.
+
+**List of updated files**
+
+[File list](https://gist.github.com/dimovdaniel/fb8786456f106660b85ccbe3e58744af)
+
 ## 2.4.x - Continues updates
 
 * 2.4.3 - Subscription fixes, Landing fixes, Import fixes  [Files](https://i.imgur.com/nmxO4ik.png)
