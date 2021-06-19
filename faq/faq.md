@@ -2,16 +2,14 @@
 description: Frequently Asked Questions (FAQs)
 ---
 
-# FAQ - Technical
+# FAQ
 
 ## How to set 24h working time
 
-We have made an overwrite, if you set closing time to be 23:59 to be interpreted as no closing at all. 
+We have made an overwrite, if you set closing time to be 23:59 to be interpreted as no closing at all.
 
 Ex - night club working hours from 22 and closes at 4 in the morning.  
-Friday - 22:00 - 23:59
-Saturday - 00:00 - 04:00  | Saturday Shift 2 - 22:00 - 23:59
-Sunday - 00:00 - 04:00 
+Friday - 22:00 - 23:59 Saturday - 00:00 - 04:00 \| Saturday Shift 2 - 22:00 - 23:59 Sunday - 00:00 - 04:00
 
 ## Registration is not working.
 
@@ -62,17 +60,21 @@ Easy to translate to any language. All strings are in few files.
 * Go to your cPanel
 * There find the tool "MultiPHP INI Editor"
 * Select the project
-* memory\_limit put to 512M or even more.
+* memory\_limit put to 512M
 * This should be enough
 * Then try to update again
 
-### Error on update  "tmp/v2.0.x" not found
+### Error on update  "tmp/v2.x.x" not found
 
 **Problem**: When you click on the update button, you get a blank screen with error 500. if you enable debug mode, you see the error directory "tmp/v2.0.x" not found.
 
-**Cause**: This mostly happens because the /tmp directory is not workspace related /tmp dir
+**Cause 1**: 
+This mostly happens because the /tmp directory is not workspace related /tmp dir
 
-**Solution**:
+**Cause 2**: 
+Other common reason is that there was interuption in the download process and your server has create the zip but with incorrect structure. And then when it tries to re download, gives the error.
+
+**Solution 1**:
 
 * Go to you cPanel
 * Open File Manager
@@ -80,6 +82,11 @@ Easy to translate to any language. All strings are in few files.
 * Add the variable 
 * SELF\_UPDATER\_DOWNLOAD\_PATH="/home/YOUR\_WORKSPACE\_NAME/tmp/" 
 * Then try again to update
+
+**Solution 2**:
+Please speak with you hosting provider to clear the contents ( specifically v2.x.x.zip ) of the system **tmp** folder. If you can you can do this on your own. Server restart in most cases also clears the tmp folder.
+
+
 
 ### Error on update 503
 
@@ -96,14 +103,6 @@ This is the best and simplest guide we could find on how to enable the ZIP exten
 {% embed url="https://bobcares.com/blog/enable-php-zip-extension-cpanel/" caption="" %}
 
 Also, please talk with your hosting provider on how to enable the zip extension for you.
-
-### Error on update version 2.4.1
-
-**Problem:** There is no existing directory at "/var/www/html/storage/logs" and it could not be created: Permission denied.
-
-**Cause**: This mostly happens because of storage/logs permissions or cache.
-
-**Solution:** Delete everything inside bootstrap/cache directory and reload the page.
 
 ## Update via FTP
 
@@ -220,8 +219,7 @@ Let me know about this.
 
 ## How to force HTTPS
 
-In order to force your site to run only in HTTPS login as admin, then go in "Site Setting" and in "Setup" tab locate the "App environment". And set it to "Production". 
+In order to force your site to run only in HTTPS login as admin, then go in "Site Setting" and in "Setup" tab locate the "App environment". And set it to "Production".
 
-This is what can be done on the Project level. Make sure you have valid SSL and that you have set the HTTPS force on the hosting level also. 
-
+This is what can be done on the Project level. Make sure you have valid SSL and that you have set the HTTPS force on the hosting level also.
 
