@@ -2,6 +2,10 @@
 
 ## 2.5.0 - 2021-06-19
 
+### Video
+{% embed url="https://youtu.be/0W8sLuBV--k" caption="" %}
+
+
 ### New
 * Delivery cost with delivery areas
 * Logo for restaurants in the header area
