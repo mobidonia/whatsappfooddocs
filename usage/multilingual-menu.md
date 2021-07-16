@@ -10,6 +10,8 @@ When you've done with this configuration open the Settings page \(Setup\) and en
 
 ![](../.gitbook/assets/screenshot%20%281%29.png)
 
+-- Will be helpful if you backup - export your complete Database now. Something can go wrong here.
+
 Now on top of the settings page you will see the option for making the all restaurant's menus in the website's default language. Click on the red button.
 
 ![](../.gitbook/assets/screenshot2.png)
