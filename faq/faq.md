@@ -94,6 +94,17 @@ Easy to translate to any language. All strings are in few files.
 
 **Solution 2**: Please speak with you hosting provider to clear the contents \( specifically v2.x.x.zip \) of the system **tmp** folder. If you can you can do this on your own. Server restart in most cases also clears the tmp folder.
 
+**Solution 3**:
+
+Change the update server
+
+Open  the .env file and change the update path to different update server
+* Go to you cPanel
+* Open File Manager
+* Open .env \(it is hidden - enable hidden files\)
+* Add the variable 
+* SELF\_UPDATER\_REPO\_URL="http://31949.s.time4vps.cloud/v2/"
+
 ### Error on update 503
 
 **Problem**: After an update, some users experience error 503 \| Service not found.
@@ -240,6 +251,7 @@ This indicates that the INTL extension - or depending on the problem, another on
 Here is a good video on how you can enable it. If you can't. Please speak with your hosting provider.
 
 {% embed url="https://www.youtube.com/watch?v=kYwRtMwWerQ" %}
+
 
 ##  Staff module error 500
 
