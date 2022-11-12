@@ -24,7 +24,6 @@
 
 * Client Login / Register module
 * Clone module - clone single item
-* Reintroduce TinyPNG module
 * Custom domain - multiple domain domain1,domain2
   
 ### How to update
