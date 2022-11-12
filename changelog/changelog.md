@@ -10,6 +10,7 @@
 
 * Login / Register clients (via the new module)
 * Export clients (via the new module)
+* Export companies/restaurants
 * Better client details in order details (via the new module)
 * Make order of value is 0
 * Delete client account with remove of personal data
