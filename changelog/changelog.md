@@ -11,7 +11,6 @@
 
 ### New
 * Allow staff to login in owner app
-* Add optio to do regular checkout, not directly via WhatsApp
 
 ### Improvements
 * Improvements in KDS and POS module
